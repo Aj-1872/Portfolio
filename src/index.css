@@ -1,0 +1,36 @@
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Bricolage Grotesque', sans-serif;
+
+  }
+  
+  li {
+
+    padding: 1rem;
+    font-size: 0.875rem;
+  }
+  
+  button {
+    border: 2px solid rgb(218, 0, 218);
+   
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  /* className={`text-${props.textMode}`} */
+  /*  */
+  /* <FaFacebook className='mx-1' size={20} /> */
+  /* <FaTwitter className='mx-1' size={20} /> */
+  /* <FaYoutube className='mx-1' size={20} /> */
+  /* <FaInstagram className='mx-1' size={20} /> */
